@@ -4,40 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- *******************external css************************************************* -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Tangerine:wght@700&display=swap" rel="stylesheet">
     <title>clock</title>
 </head>
 
 <body>
-    <p id="show"></p>
-    <div class="container">
-        <!-- <button onclick="stopwatch()">stopwatch</button> -->
-       
-            <div class="clock">
-                <div class="center"></div>
-                <div id="hour"></div>
-                <div id="minute"></div>
-                <div id="second"></div>
-                <div class="n1"></div>
-                <div class="n2"></div>
-                <div class="n3">3</div>
-                <div class="n4"></div>
-                <div class="n5"></div>
-                <div class="n6">6</div>
-                <div class="n7"></div>
-                <div class="n8"></div>
-                <div class="n9">9</div>
-                <div class="n10"></div>
-                <div class="n11"></div>
-                <div class="n12">12</div>
-            </div>
-       
+    <!-- /////////////tag to show digital clock///////////////////////////////// -->
 
+    <p id="show"></p>
+    <!-- ***************************container to contain all elements************************* -->
+    <div class="container">
+
+        <div class="clock">
+
+            <!-- ********************clock hands and numbers************************************ -->
+            <div class="center"></div>
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+            <div class="n1"></div>
+            <div class="n2"></div>
+            <div class="n3">3</div>
+            <div class="n4"></div>
+            <div class="n5"></div>
+            <div class="n6">6</div>
+            <div class="n7"></div>
+            <div class="n8"></div>
+            <div class="n9">9</div>
+            <div class="n10"></div>
+            <div class="n11"></div>
+            <div class="n12">12</div>
+        </div>
     </div>
+
+    <!-- *******************************external script*************************************************************** -->
+    <script src="index.js"></script>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="index.js"></script>
 
 </html>

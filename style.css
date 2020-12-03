@@ -4,23 +4,21 @@ body{
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-blend-mode: overlay;
-   background-color: rgb(238, 229, 229);
-   font-family: 'Tangerine', cursive;}
-
-   .container{
-    /* background-image: url('tree1.png'); */
+   font-family: 'Tangerine', cursive;
+   background: #d8a3db;
+}
+.container{    
     background-size:  initial;
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: 7;
     position: absolute;
    }
-
 #second{
-    width: 3px;
+    width: 2px;
     height: 30%;
     position: absolute;
-    background-color: rgb(42, 114, 0);
+    background-color: #843488;
     background-size: 100% 100%;
     top: 21%;
     transform-origin: bottom;
@@ -31,7 +29,7 @@ body{
     width: 2px;
     height: 25%;
     position: absolute;
-    background-color: rgb(99, 11, 11);
+    background-color: rgb(14, 13, 13);
     background-size: 100% 100%;
     top: 26%;
     transform-origin: bottom;
@@ -42,7 +40,7 @@ body{
      width: 2px;
     height: 17%;
     position: absolute;
-    background-color: rgb(4, 35, 80);
+    background-color: rgb(8, 114, 40);
     background-size: 100% 100%;
     top: 34%;
     transform-origin: bottom;
@@ -53,33 +51,31 @@ button{
     position: absolute;
     font-size: 5vw;
     background: none;
-    border: 1px solid rgb(150, 138, 138);
-    box-shadow: 0px 0px 18px 3px rgb(29, 27, 27);
     margin-top: 5vw;
     margin-left: 4vw;
     color: rgba(39, 36, 36, 0.911);
     border-radius: 10px;
     padding:10px 20px;
     font-family: 'Tangerine', cursive;
+    border: none;
+    box-shadow: 
+    -8px -8px 12px rgba(255, 255, 255, 0.151),
+    8px 8px 12px rgba(24, 23, 23, 0.253);
 }
 *{
     box-sizing: border-box;
 }
 .clock{
-    border: 3px solid rgb(110, 101, 101);
-    border-radius: 50%;
     width: 34vw;
     height: 34vw;
     margin-left: 90%;
     position: relative;
     background: none;
-    box-shadow: 0px 0px 28px 10px rgb(68, 63, 63);
     margin-top: 5%;
-    
-   
+    border-radius: 90px;
+   box-shadow: -8px -14px 12px rgba(255, 255, 255, 0.185),
+               15px 14px 12px rgba(24, 23, 23, 0.253);
 }
-
-
 .center{
     position: absolute;
     top: 50%;
@@ -94,25 +90,23 @@ button{
     position: absolute;
     width: 1%;
     height: 15%;
-    /* background-color: rgb(255, 20, 231); */
-    color: rgb(116, 4, 190);
+    color: rgba(67, 7, 95, 0.568);
     font-size: 4vw;
     border-color: red;
     left: 45%;
-    
 }
 .n1{
     position: absolute;
     width: 1%;
     height: 13%;
-    background-color: rgb(59, 56, 56);
+    background-color: #4D3252;
+    font-weight: 700;
     border-color: red;
     left: 71%;
     transform: rotate(32deg);
     top: 6%;
     background-size: 100% 100%;
 }
-
 .n2{
     position: absolute;
     width: 1%;
@@ -123,16 +117,12 @@ button{
     transform: rotate(55deg);
     top: 21%;
 }
-
 .n6{
     position: absolute;
     width: 1%;
     height: 15%;
-    /* background-color: rgb(255, 20, 231); */
-    
-    color: rgb(116, 4, 190);
+    color: rgba(67, 7, 95, 0.568);
     font-size: 4vw;
-
     border-color: red;
     left: 50%;  
     top: 85%;
@@ -141,12 +131,11 @@ button{
     position: absolute;
     width: 1%;
     height: 15%;
-    /* background-color: rgb(255, 20, 231); */
     border-color: red;
     left: 92%;
     top: 42%;
-    /* transform: rotate(90deg); */
-    color: rgb(116, 4, 190);
+    font-weight: 700;
+    color: rgba(67, 7, 95, 0.568);
     font-size: 4vw;
 
 }
@@ -154,14 +143,11 @@ button{
     position: absolute;
     width: 1%;
     height: 15%;
-    /* background-color: rgb(255, 20, 231); */
-    color: rgb(116, 4, 190);
+    color: rgba(67, 7, 95, 0.568);
     font-size: 4vw;
-
-    border-color: red;
+     border-color: red;
     left: 7%;
     top: 42%;
-    /* transform: rotate(90deg); */
 }
 .n4{
     position: absolute;
@@ -230,32 +216,58 @@ button{
     color:rgb(66, 61, 61);
     position: absolute;
     font-size: 31vw;
-    text-shadow: 0px 0px 18px 10px rgb(90, 73, 73);
     font-family: 'Sacramento', cursive;
     text-align: center;
-    margin-top: 21%;
+    margin-top: 31%;
     margin-left: 4%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-weight: 500;
+    color: #d8a3db;
+    text-shadow: 
+    -8px -8px 12px rgba(255, 255, 255, 0.151),
+    8px 8px 12px rgba(24, 23, 23, 0.253);
+    outline: none;
+    
 }
+input{
+    font-size: 2vw;
+    border-radius: 50px;
+    top: 20%;
+    position: absolute;
+    left: 40%;
+    outline: none;
+    box-shadow: -8px -14px 12px rgba(255, 255, 255, 0.185),
+    15px 14px 12px rgba(24, 23, 23, 0.253); 
+    border: none;
+    height: 20%;
+    background-color: #d8a3db;
+    color: black;
+}
+
 @media(max-width:500px){
     .clock{
-        margin-top: 30vh;
+        margin-top: 10vh;
         height: 80vw;
         width: 80vw;
         margin-left: 10%;
-        box-shadow: 0px 0px 28px 4px rgb(29, 27, 27);
 
     }
     .n12, .n3 , .n6 , .n9{
         font-size: 10vw;
     }
     #show{
-        margin-top: 30%;
-        font-size: 36vw;
+        margin-top: 42%;
+        font-size: 39vw;
+        font-weight: 700;
         margin-left: 0px;
     }
     .center{
-        width: 5px;
-        height: 5px;
-        color: grey;
+        width: 7px;
+        height: 7px;
+        color: rgb(134, 69, 69);
+        top: 50%;
+        left: 50%;
     }
 }
